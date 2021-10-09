@@ -12,7 +12,7 @@ def training(config_path):
     OPTIMIZER = config["params"]["optimizer"]
     METRICS = config["params"]["metrics"]
     NUM_CLASSES = config["params"]["num_classes"]
-    history = model.fit(X_train, y_train, epochs=EPOCHS,
+    history = model.fit(X_train, y_train, epochs=epochs,
                     validation_data=VALIDATION_SET)
 
     model = create_model(LOSS_FUNCTION, OPTIMIZER, METRICS, NUM_CLASSES)
