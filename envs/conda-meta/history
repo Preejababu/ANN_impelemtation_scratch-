@@ -1,8 +1,8 @@
-==> 2021-10-07 20:28:41 <==
+==> 2021-10-10 15:42:30 <==
 # cmd: C:\Users\preej\Anaconda3\Scripts\conda-script.py create --prefix ./envs python=3.7 -y
 # conda version: 4.10.3
 +defaults/noarch::wheel-0.37.0-pyhd3eb1b0_1
-+defaults/win-64::ca-certificates-2021.7.5-haa95532_1
++defaults/win-64::ca-certificates-2021.9.30-haa95532_1
 +defaults/win-64::certifi-2021.5.30-py37haa95532_0
 +defaults/win-64::openssl-1.1.1l-h2bbff1b_0
 +defaults/win-64::pip-21.2.4-py37haa95532_0
